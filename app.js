@@ -33,8 +33,8 @@ app.post('/weather', (req, res) => {
             units: 'metric'
         },
         headers: {
-          'X-RapidAPI-Host': 'community-open-weather-map.p.rapidapi.com',
-          'X-RapidAPI-Key': 'c3b5dff568msh80627f4f0d7354ap100bfbjsn38619fbe82a0'
+          'X-RapidAPI-Host': 'RAPID_HOST',
+          'X-RapidAPI-Key': 'RAPID-KEY'
         }
     };
     
